@@ -2,6 +2,7 @@
 from urllib.request import urlopen
 import urllib
 import re
+import time
 
 def get_html(url):
     page = urlopen(url)
@@ -46,3 +47,5 @@ while True:
 
     if len(Sent_News)>100:
         Sent_News.pop(0)
+
+    time.sleep(40*1000)
