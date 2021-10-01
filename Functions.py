@@ -1,4 +1,4 @@
-#in the name of God
+#in the name of God`
 from urllib.request import urlopen
 import urllib
 import re
@@ -44,5 +44,5 @@ while True:
 
         Titles=Tmp[0]
 
-    if len(Sent_News)>30:
+    if len(Sent_News)>100:
         Sent_News.pop(0)
